@@ -4,14 +4,14 @@ input { font: inherit; border: unset; background: unset; }
 input:focus { outline: unset; }
 
 :root {
-    font: 1rem/1.175 "helvetica", serif;
+    font: 6.5vw "helvetica";
 }
 
 #app {
 	display: flex;
 	flex-direction: column; justify-content: center; align-items: center;
 	width: 100vw; height: 100vh;
-	font-weight: 900; font-size: 8rem;
+	font-weight: 800; 
     color: black;
     text-decoration: none;
     background-image: url("../images/vm.gif");
@@ -24,6 +24,14 @@ input { text-align: center; }
 img {
 	width: 8rem; height: 8rem;
 	vertical-align: calc(-0.12109375em);
+}
+
+#box {
+    display: flex;
+    justify-content: center; align-items: center; text-align: center; 
+    width: 90vw; height: 90vh;
+    border: 5px solid black;
+    box-shadow: 0px 0px 20px 12px #000000cf;
 }
 
 /* Link Styling */

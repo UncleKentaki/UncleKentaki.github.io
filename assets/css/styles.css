@@ -1,0 +1,50 @@
+/* resets */
+* { color: inherit; }
+input { font: inherit; border: unset; background: unset; }
+input:focus { outline: unset; }
+
+:root {
+    font: 1rem/1.175 "helvetica", serif;
+}
+
+#app {
+	display: flex;
+	flex-direction: column; justify-content: center; align-items: center;
+	width: 100vw; height: 100vh;
+	font-weight: 900; font-size: 8rem;
+    color: black;
+    text-decoration: none;
+    background-image: url("../images/vm.gif");
+    background-size: cover;
+    text-shadow: 0px 21px 20px black;
+}
+
+input { text-align: center; }
+
+img {
+	width: 8rem; height: 8rem;
+	vertical-align: calc(-0.12109375em);
+}
+
+/* Link Styling */
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: whitesmoke;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }

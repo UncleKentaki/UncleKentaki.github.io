@@ -4,7 +4,7 @@ input { font: inherit; border: unset; background: unset; }
 input:focus { outline: unset; }
 
 :root {
-    font: 6.5vw "helvetica";
+    font: 12vh "helvetica";
 }
 
 #app {
